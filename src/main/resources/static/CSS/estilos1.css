@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 2, 2022, 9:38:52 AM
+    Author     : joses
+*/
+
+#encabezado {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #4DA319;
+    color: white;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 16px;
+}
+
+#encabezado h1{
+    display: inline;
+}
+
+#menu {
+    position: relative;
+    top: 8%;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #AABB00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-widht: 900px;
+    margin: 0 auto;
+}
+
+#menu a {
+    color: black;
+}
+
+#menu a:hover {
+    background-color: green;
+    color: white;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+
+#barraLateral {
+    position: relative;
+    top: 15%;
+    left: 0;
+    height: 85%;
+    width: 13%;
+    background-color: #398B09;
+    padding: 10px;
+}
+
+#contenido {
+    position: absolute;
+    top: 15%;
+    left: 21%;
+    height: 81%;
+    width: 70%;
+    bottom: 10%;
+    padding: 10px;
+
+}
+
+#piePagina {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #AABB00;
+    text-align: center;
+}
+
+#piePagina2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #AABB00;
+    text-align: center;
+}
+

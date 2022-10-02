@@ -5,30 +5,79 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>Ejemplo6</title>
+        <title>Tienda en linea</title>
         <meta charset="UTF-8">
+        <link href="css/estilos1.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <a href="Vida en Chepe.html">Atras</a>|
-        <a href="index.html">Inicio</a>|
-        <a href="Viajes de un Dia.html">Siguiente</a><br>       
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-        </ul>
-
-        <ol type= "i">
-            <li>Item uno</li>
-            <li>Item dos</li>
-            <li>Item tres</li>
-            <li>Item cuatro</li>
-        </ol>
+        <header id="encabezado">
+            <h1>Nomadas</h1>
+        </header>
+        <nav id="menu">
+            <a href="Vida en Chepe.html">Vida en Chepe</a>
+            <a href="index.html">Inicio</a>
+            <a href="Viajes de un dia.html">Viajes de un Dia</a><br>
+        </nav>
+        <aside id='barraLateral'>
+            <article>
+                <h2>¿Qué es Nomada Digital?</h2>
+                <p> Nomada digital es poder utilizar tecnología para trabajar y poder viajar al mismo tiemp, disfrutando de del mundo mientras lo haces. 
+            </article>
+        </aside>
+        <section id="contenido">
+            <figure style="text-align: center">
+                <figure>
+                    <iframe width="780" height="439" src="https://www.youtube.com/embed/uGI00HV7Cfw" title="Evolution Of The Desk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+                <h2>Costa Rica, Paraiso para los nomadas digitales</h2>
+            </figure>
+            <a href="#abajo">Ir abajo</a>
+            <a name="arriba"></a>
+            <div style='text-align: left'>
+                <div>
+                    <h3>Requisitos</h3>
+                    <ul>
+                        <li>Permanecer en el país por un minimo de 180 días</li>
+                        <li>Deberá de percibir una remuneración mensual estable durante el primero año por un monto igual o superior a $3000</li>
+                        <li>Necesitará una polizá de servicios médicos que cubra a la persona solicitante por la duración de su estancia en el país</li>
+                    </ul>
+                    <h3>Beneficios</h3>
+                    <ul>
+                        <li>Exoneración de impuestos sobre los ingresos percibidos por la actividad que realiza para la compañia extranjera en la que fue contratado</li>
+                        <li>Podrá utilizar la licencia de conducir de su país de origen mientras se encuentra en el país</li>
+                        <li>Exoneración de importacion del equipo basico personal de computo, informatico, de telecomunicaciones, o ánalogos para cumplir con sus labores</li>
+                        <li>Podrá conocer el país más feliz del mundo en su tiempo libre</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Nosotros le ayudamos con los tramites</h3>
+                    <form name="Nomada Digital" method="POST">
+                        <p>Ingrese sus datos de contacto para iniciar el proceso</p>
+                        <label>Nombre</label>
+                        <input type="text" name="Nombre" placeholder="Nombre" size='20' />
+                        <br> 
+                        <br>
+                        <label>Apellidos</label>
+                        <input placeholder="apellidos" type="text" name="apellidos" value="" size="30" />
+                        <br> 
+                        <br>
+                        <label>Correo</label>
+                        <input placeholder="correo@abc.com" type="email" name="cprrep" value="" size="30" />
+                        <br> 
+                        <br>
+                        <label>País de Residencía</label>
+                        <input placeholder="País de origen" type="text" name="País" value="" size="30" />
+                        <br> 
+                        <br>
+                        <input type="submit" value="Enviar" />
+                    </form>
+                    <figure style="text-align: center">
+                        <img src="images/nomadas.jpg" alt="" width="400"/>
+                        <figcaption>Nomadas digitales</figcaption>
+                    </figure>
+                    <a name="abajo"></a>
+                    <a href="#arriba">Ir arriba</a>
+                </div>
+        </section>
     </body>
-    <footer>
-        <p style="text-align: center"> Contactenos:</p>
-        <address style="text-align: center">Teléfono: <u>+506 84196599</u></address>
-        <address style="text-align: center"> E-mail: <u><a href="mailto: jsolorzano90547@ufide.ac.cr">jsolorzano90547@ufide.ac.cr</a></u></address>
-    </footer>
 </html>

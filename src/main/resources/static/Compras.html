@@ -5,16 +5,41 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>Ejemplo8</title>
+        <title>Tienda en Linea</title>
         <meta charset="UTF-8">
+        <link href="css/estilos1.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <a href="Viajes de un Dia.html">Atras</a>|
-        <a href="index.html">Inicio</a>|
-        <a href="Amantes del Cafe.html">Siguiente</a><br>         
-        <h1>Ejemplos de Imagenes</h1>
-        <img src="images/Marmota.jpg" alt="Imagen de Marmota" width="100"/>
-        <img src="images/Tigre.jpg" alt="Imagen de Tigre"/>
+        <header id='encabezado'>
+            <h1>Pago de Paquetes</h1>
+        </header>
+        <nav id='menu'>
+            <a href="Amantes del cafe.html">Amantes del Cafe</a>|
+            <a href="index.html">Inicio</a>|
+            <a href="Pura Vida.html">Pura Vida</a><br>
+        </nav>
+        <form action="#" method="Post">
+            <p>Ingrese sus datos de contacto para iniciar el proceso</p>
+            <label>Nombre</label>
+            <input type="text" name="Nombre" placeholder="Nombre" size='20' />
+            <br> 
+            <br>
+            <label>Apellidos</label>
+            <input placeholder="apellidos" type="text" name="apellidos" value="" size="30" />
+            <br> 
+            <br>
+            <label>Correo</label>
+            <input placeholder="correo@abc.com" type="email" name="cprrep" value="" size="30" />
+            <br> 
+            <br>
+            <label>País de Residencía</label>
+            <input placeholder="País de origen" type="text" name="País" value="" size="30" />
+            <br> 
+            <br>
+            <input type="submit" value="Enviar" />
+        </form>
+        <br>
+        <div>Una vez envie su información, un representante lo estará contactando en las siguientes 24 horas</div>
     </body>
     <footer>
         <p style="text-align: center"> Contactenos:</p>
